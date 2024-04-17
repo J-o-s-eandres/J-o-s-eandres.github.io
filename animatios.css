@@ -1,0 +1,182 @@
+.div-fullpage {
+    animation-duration: 2s;
+    animation-name: page-animation;
+}
+
+@keyframes page-animation {
+    from {
+        transform: scale(0.8);
+    }
+}
+
+.p-name {
+    animation-duration: 3s;
+    animation-name: nombre;
+}
+
+@keyframes nombre {
+    from {
+        transform: scale(1.3);
+    } 
+}
+
+.to-right {
+    animation-duration: 3s;
+    animation-name: to-right;
+}
+
+@keyframes to-right {
+    from {
+        transform: translate(-300px, 50%);
+    }
+}
+
+.to-right-fast {
+    animation-duration: 2s;
+    animation-name: to-right-fast;
+}
+
+@keyframes to-right-fast {
+    from {
+        transform: translate(-300px, 50%);
+    }
+}
+
+.to-left {
+    animation-duration: 2s;
+    animation-name: to-left;
+}
+
+@keyframes to-left {
+    from {
+        transform: translate(300px, 50%);
+    }
+}
+
+.to-left-fast {
+    animation-duration: 3s;
+    animation-name: to-left-fast;
+}
+
+@keyframes to-left-fast {
+    from {
+        transform: translate(300px, 50%);
+    }
+}
+
+.profile-pic {
+    animation-duration: 3s;
+    animation-name: profile-img;
+}
+
+@keyframes profile-img {
+    from {
+        transform: translate3d(0, -150%,0);
+    } to {
+        transform: translate(0,0,0);
+    }
+
+}
+
+nav {
+    animation-duration: 3s;
+    animation-name: nav-bar;
+}
+
+@keyframes nav-bar {
+    from {
+        transform: scale(0.3);
+    } to {
+        transform: scale(1);
+    }
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: text-animation;
+}
+
+@keyframes text-animation {
+    from {
+        transform: scale(1.5);
+    } to {
+        transform: scale(1);
+    }
+}
+
+hr {
+    animation-duration: 4.3s;
+    animation-name: hr-animation;
+}
+
+@keyframes hr-animation {
+    from {
+        transform: scale(0);
+    } to {
+        transform: scale(1);
+    }
+}
+
+.titulos-img-portfolio {
+    animation-duration: 3s;
+    animation-name: img-title;
+}
+
+@keyframes img-title {
+    from {
+        transform: scale(1.4);
+    } to {
+        transform: scale(1);
+    }
+}
+
+.img-portfolio {
+    animation-duration: 3s;
+    animation-name: img-portfolio-animation;
+   /* width: 110%;*/
+    
+}
+
+@keyframes img-portfolio-animation {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    } 
+}
+
+.skills-learning-icons-container div {
+    animation-duration: 3s;
+    animation-name: icons-animation;
+}
+
+@keyframes icons-animation {
+    from {
+        transform: scale(1.2);
+    }
+}
+
+.email span {
+    animation-duration: 3s;
+    animation-name: email;
+}
+
+@keyframes email {
+    from {
+        transform: scale(1.3);
+    }
+}
+
+.img-contacto {
+    animation-duration: 3s;
+    animation-name: img-contacto-animation;
+}
+
+@keyframes img-contacto-animation {
+    from {
+        transform: translate3d(0, 100%, 0);
+        opacity: 0;
+    } to {
+        transform: translate3d(0, 0%, 0);
+        opacity: 1;
+    }
+}
